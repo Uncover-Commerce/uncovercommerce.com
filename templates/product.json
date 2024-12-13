@@ -59,7 +59,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Whats included in our Shopify {{ block.settings.page.title }}",
+            "heading": "Whats included in our Shopify {{ product.title }}",
             "icon": "leather",
             "content": "{{ product.metafields.custom.what_is_included | metafield_tag }}",
             "page": ""
